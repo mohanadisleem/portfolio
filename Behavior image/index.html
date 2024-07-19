@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+    <link rel="stylesheet" href="assist/assist/style/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="mystely.css">
+    
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <title>Exam</title>
+</head>
+
+<body>
+
+  <header>
+
+    <div class="container">
+    <nav class="navbar bottom">
+        <div class="container-fluid">
+            <H1 class="log">
+                <a class="navbar-brand " href="#">KOOL STORE</a>
+            </H1>
+            
+            <button class="navbar-toggler ms-auto text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#nav-bottom" aria-controls="nav-bottom">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+         
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Bestseller</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Category</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Community</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="nav-bottom"
+        aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+                LIST
+            </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-3">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Bestseller</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Category</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Community</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+ 
+                
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+           
+        </div>
+      </div>
+</div>
+</div>
+</header>
+
+<section class="popular">
+    <div class="container">
+        <div class="head my-5 d-flex justify-content-between align-items-center">
+            <h2>Popular Now</h2>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4">
+            <div class="col">
+                <div class="card">
+                    <img src="img/gallery-image-2.jpg" class="top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">NAME OF SHIRT</h5>
+                        <p class="text-muted mt-3">$40.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/gallery-image-3.jpg" class="top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">SPORT SHIRT</h5>
+                        <p class="text-muted mt-3">$40.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/gallery-image-4.jpg" class="top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">ELEGANT SHIRT</h5>
+                        <p class="text-muted mt-3">$40.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/gallery-image-5.jpg" class="top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">ANOTHER NEW SHIRT</h5>
+                        <p class="text-muted mt-3">$40.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-light fa-chevron-up"></i></button>
+<section class="Empty"></section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+ 
+    <script src="assist/assist/javascript/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
