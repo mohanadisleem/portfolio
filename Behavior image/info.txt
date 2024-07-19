@@ -1,0 +1,13 @@
+logo icon
+https://fontawesome.com/icons/bolt-lightning?s=solid&f=classic
+
+
+color
+#2a80b9
+#2a3f52
+
+fonts
+Open Sans
+
+
+
